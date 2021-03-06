@@ -23,7 +23,7 @@ public class  RanlittleSuperMarketAppMain {
             all[i]=m;
         }
 
-        System.out.println("利润最高的商品是：");
+        System.out.println("利润最高的商品：");
         littleSuperMarket.getBiggesProfitMerchandise().describe();
         System.out.println("超市开门了");
         Scanner scanner = new Scanner(System.in);
